@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+section.sidebar{
+    height: 100vh;
+    width: 20%;
+    background: #1b1b11;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease ;
+}
+.hide{
+    transform: translateX(-320px);
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.center button{
+    padding: 10px, 20px;
+    font-size: 2rem;
+    border: none;
+    background: #ffa3ff;
+    color: #ffff;
+    cursor: pointer;
+}
